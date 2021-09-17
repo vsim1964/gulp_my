@@ -1,0 +1,51 @@
+@import "variables.scss";
+
+/* global -------------------------- */
+html {
+	height: 100%;
+	background: $page;
+}
+
+body {
+	height: 100%;
+	font: 400 18px/30.6px "Montserrat", Arial, sans-serif;
+	color: $text;
+
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 110px;
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $heading;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}

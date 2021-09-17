@@ -1,0 +1,46 @@
+@import "variables.scss";
+
+/* media -------------------------- */
+@media (max-width: 767px) {
+	header {
+		text-align: center;
+	}
+
+	header .logo {
+		float: none;
+		display: inline-block;
+	}
+
+	header .social {
+		display: none;
+	}
+
+	.feature {
+		width: 100%;
+	}
+
+	.subscribe-email {
+		width: 200px;
+	}
+}
+
+@media (max-width: 479px) {
+	body {
+		word-wrap: break-word;
+	}
+
+	.simple p {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.subscribe-email {
+		width: 100%;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.subscribe-button {
+		width: 100%;
+	}
+}
